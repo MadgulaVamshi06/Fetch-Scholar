@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1>Fashion Store</h1>
+    <div class="container"></div>
+    <div class="title-input"></div>
+    <input type="text" id="searchInput" placeholder="Search products...">
+    <button id="searchButton">Search</button>
+
+ 
+        <select id="sortSelect">
+            <option value="default">Sort by</option>
+            <option value="price-asc">Price: Low to High</option>
+            <option value="price-desc">Price: High to Low</option>
+        </select>
+ 
+    <select id="filterSelect">
+        <option value="all">All Categories</option>
+        <option value="men's clothing">Men's Clothing</option>
+        <option value="jewelery">Jewelery</option>
+        <option value="electronics">Electronics</option>
+        <option value="women's clothing">Women's Clothing</option>
+    </select>
+
+    <div id="products"></div>
+</body>
+<script src="./script.js"></script>
+
+</html>
